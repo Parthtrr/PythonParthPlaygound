@@ -10,6 +10,7 @@ rows = []
 for item in data:
     src = item["_source"]
     ticker = src["ticker"]
+    ticker = ticker.replace(".NS", "")
 
     # crossed_resistance is a list
     for cr in src.get("crossed_resistance", []):

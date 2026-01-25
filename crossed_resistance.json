@@ -1,686 +1,623 @@
 [
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "CANFINHOME.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "CANFINHOME.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 910.6213989257812,
-              "days": 200,
-              "support_level": 810.1147766113281
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "IDFCFIRSTB.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "IDFCFIRSTB.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 86,
-              "days": 200,
-              "support_level": 77.62592315673828
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "NMDC.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "NMDC.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 84.52999877929688,
-              "days": 200,
-              "support_level": 75.83402252197266
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "LTIM.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "LTIM.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 6138.54736328125,
-              "days": 200,
-              "support_level": 4852.9111328125
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "SHRIRAMFIN.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "SHRIRAMFIN.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 1010.3499755859375,
-              "days": 200,
-              "support_level": 708.3566284179688
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "GPIL.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "GPIL.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 257.7935791015625,
-              "days": 200,
-              "support_level": 235.34002685546875
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "MRPL.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "MRPL.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 172.49000549316406,
-              "days": 200,
-              "support_level": 150.8699951171875
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "IIFL.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "IIFL.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 531.6499938964844,
-              "days": 200,
-              "support_level": 499.76153564453125
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "PERSISTENT.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "PERSISTENT.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 6438.8994140625,
-              "days": 200,
-              "support_level": 6090.08056640625
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "RBLBANK.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "RBLBANK.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 289.4916687011719,
-              "days": 200,
-              "support_level": 221.882568359375
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "APOLLOTYRE.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "APOLLOTYRE.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 521.4500122070312,
-              "days": 200,
-              "support_level": 489.4623107910156
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "GPPL.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "GPPL.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 173.4803009033203,
-              "days": 200,
-              "support_level": 117.93708801269531
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "HINDZINC.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "HINDZINC.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 702.1829833984375,
-              "days": 200,
-              "support_level": 504.22467041015625
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "BHARATFORG.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "BHARATFORG.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 1477.199951171875,
-              "days": 200,
-              "support_level": 1314.5
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "JBCHEPHARM.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "JBCHEPHARM.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 1949.1629638671875,
-              "days": 200,
-              "support_level": 1794.4046630859375
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "3MINDIA.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "3MINDIA.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 36106.705078125,
-              "days": 200,
-              "support_level": 31798.193359375
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "ABCAPITAL.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "ABCAPITAL.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 362.95001220703125,
-              "days": 200,
-              "support_level": 241.3000030517578
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "GESHIP.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "GESHIP.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 1133.199951171875,
-              "days": 200,
-              "support_level": 958.4330444335938
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "NLCINDIA.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "NLCINDIA.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 252.3873748779297,
-              "days": 200,
-              "support_level": 235.6535186767578
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "CHENNPETRO.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "CHENNPETRO.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 1028.5818481445312,
-              "days": 200,
-              "support_level": 811.6597290039062
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "HEG.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "HEG.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 537.3853149414062,
-              "days": 200,
-              "support_level": 485.1903991699219
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "IDEA.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "IDEA.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 11.960000038146973,
-              "days": 200,
-              "support_level": 9.575000286102295
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "IDBI.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "IDBI.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 99.19779968261719,
-              "days": 200,
-              "support_level": 87.77753448486328
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "MAHABANK.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "MAHABANK.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 65.99117279052734,
-              "days": 200,
-              "support_level": 45.37712478637695
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "JKTYRE.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "JKTYRE.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 513.1539306640625,
-              "days": 200,
-              "support_level": 449.17236328125
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "KARURVYSYA.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "KARURVYSYA.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 272.5,
-              "days": 200,
-              "support_level": 199.50709533691406
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "CRAFTSMAN.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "CRAFTSMAN.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 8013.5,
-              "days": 200,
-              "support_level": 7093
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "CEATLTD.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "CEATLTD.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 3795.6904296875,
-              "days": 200,
-              "support_level": 3223.04296875
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "INFY.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "INFY.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 1708.827880859375,
-              "days": 200,
-              "support_level": 1609.01953125
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "BPCL.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "BPCL.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 381.45001220703125,
-              "days": 200,
-              "support_level": 347.60723876953125
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "CHOLAFIN.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "CHOLAFIN.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 1653.35595703125,
-              "days": 200,
-              "support_level": 1606.7633056640625
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "MOTHERSON.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "MOTHERSON.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 122.04000091552734,
-              "days": 200,
-              "support_level": 104.74867248535156
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "BEL.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "BEL.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 426.70521545410156,
-              "days": 200,
-              "support_level": 369.3999938964844
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "JSWSTEEL.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "JSWSTEEL.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 1206,
-              "days": 200,
-              "support_level": 1079.5999755859375
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "^CNXAUTO_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "^CNXAUTO",
-          "crossed_resistance": [
-            {
-              "resistance_level": 27610.75,
-              "days": 200,
-              "support_level": 20498.599609375
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "BAJAJ-AUTO.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "BAJAJ-AUTO.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 9562.5,
-              "days": 200,
-              "support_level": 7319.20263671875
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "TITAN.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "TITAN.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 4201.7998046875,
-              "days": 200,
-              "support_level": 3796.0120849609375
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      },
-      {
-        "_index": "nifty_data_weekly",
-        "_id": "JINDALSTEL.NS_2026-01-19",
-        "_score": null,
-        "_source": {
-          "ticker": "JINDALSTEL.NS",
-          "crossed_resistance": [
-            {
-              "resistance_level": 1076.5858764648438,
-              "days": 200,
-              "support_level": 986.5
-            }
-          ]
-        },
-        "sort": [
-          1768780800000
-        ]
-      }
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "360ONE.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "360ONE.NS",
+      "close": 1112.300048828125,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 4.216490367277651,
+          "near_support": true,
+          "resistance_level": 1239.097900390625,
+          "days": 200,
+          "support_level": 1065.4000244140625,
+          "resistance_distance_pct": 11.399608558508035,
+          "near_resistance": false
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
     ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "IDFCFIRSTB.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "IDFCFIRSTB.NS",
+      "close": 82.98999786376953,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 0.5914106259630725,
+          "near_support": true,
+          "resistance_level": 84.52335357666016,
+          "days": 200,
+          "support_level": 82.49918619791667,
+          "resistance_distance_pct": 1.8476391762386506,
+          "near_resistance": true
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "ANANDRATHI.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "ANANDRATHI.NS",
+      "close": 2959.39990234375,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 3.4973306553815626,
+          "near_support": true,
+          "resistance_level": 3125.10009765625,
+          "days": 200,
+          "support_level": 2855.89990234375,
+          "resistance_distance_pct": 5.599114711778923,
+          "near_resistance": false
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "NMDC.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "NMDC.NS",
+      "close": 76.36000061035156,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 3.732318558591971,
+          "near_support": true,
+          "resistance_level": 77.12999725341797,
+          "days": 200,
+          "support_level": 73.51000213623047,
+          "resistance_distance_pct": 1.0083769472390804,
+          "near_resistance": true
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "KARURVYSYA.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "KARURVYSYA.NS",
+      "close": 265.5,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 7.585687152409958,
+          "near_support": false,
+          "resistance_level": null,
+          "days": 200,
+          "support_level": 245.36000061035156,
+          "resistance_distance_pct": null,
+          "near_resistance": false
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "CRAFTSMAN.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "CRAFTSMAN.NS",
+      "close": 7198.5,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 9.439466555532402,
+          "near_support": false,
+          "resistance_level": null,
+          "days": 200,
+          "support_level": 6519,
+          "resistance_distance_pct": null,
+          "near_resistance": false
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "GRANULES.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "GRANULES.NS",
+      "close": 565,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 3.681413768667036,
+          "near_support": true,
+          "resistance_level": 569.5499877929688,
+          "days": 200,
+          "support_level": 544.2000122070312,
+          "resistance_distance_pct": 0.8053075739767699,
+          "near_resistance": true
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "SAIL.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "SAIL.NS",
+      "close": 149.02999877929688,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 4.723876631414696,
+          "near_support": true,
+          "resistance_level": 166.1107177734375,
+          "days": 200,
+          "support_level": 141.99000549316406,
+          "resistance_distance_pct": 11.46126225192821,
+          "near_resistance": false
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "HEG.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "HEG.NS",
+      "close": 528.9000244140625,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 4.811875786019453,
+          "near_support": true,
+          "resistance_level": 591,
+          "days": 200,
+          "support_level": 503.45001220703125,
+          "resistance_distance_pct": 11.74134481365064,
+          "near_resistance": false
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "IDBI.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "IDBI.NS",
+      "close": 97.41999816894531,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 0.02052621991608762,
+          "near_support": true,
+          "resistance_level": 103.80000305175781,
+          "days": 200,
+          "support_level": 97.4000015258789,
+          "resistance_distance_pct": 6.548968387115267,
+          "near_resistance": false
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "PNB.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "PNB.NS",
+      "close": 120.1500015258789,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 1.947568820280994,
+          "near_support": true,
+          "resistance_level": 131.15545654296875,
+          "days": 200,
+          "support_level": 117.80999755859375,
+          "resistance_distance_pct": 9.15976269440113,
+          "near_resistance": false
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "HEROMOTOCO.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "HEROMOTOCO.NS",
+      "close": 5384,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 1.634472511144131,
+          "near_support": true,
+          "resistance_level": 6350.5,
+          "days": 200,
+          "support_level": 5296,
+          "resistance_distance_pct": 17.951337295690937,
+          "near_resistance": false
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "TVSMOTOR.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "TVSMOTOR.NS",
+      "close": 3549.800048828125,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 4.600260481770918,
+          "near_support": true,
+          "resistance_level": 3654,
+          "days": 200,
+          "support_level": 3386.5,
+          "resistance_distance_pct": 2.9353752250432787,
+          "near_resistance": true
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "BAJAJ-AUTO.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "BAJAJ-AUTO.NS",
+      "close": 9413.5,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 3.014996885014436,
+          "near_support": true,
+          "resistance_level": 12353.318359375,
+          "days": 200,
+          "support_level": 9129.683268229166,
+          "resistance_distance_pct": 31.229812071758644,
+          "near_resistance": false
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "EICHERMOT.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "EICHERMOT.NS",
+      "close": 6973,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 3.986806252688943,
+          "near_support": true,
+          "resistance_level": 7047,
+          "days": 200,
+          "support_level": 6695,
+          "resistance_distance_pct": 1.0612361967589274,
+          "near_resistance": true
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "MOTHERSON.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "MOTHERSON.NS",
+      "close": 108.4000015258789,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 3.8059628221861943,
+          "near_support": true,
+          "resistance_level": 109.08000183105469,
+          "days": 200,
+          "support_level": 104.27433776855469,
+          "resistance_distance_pct": 0.6273065457600028,
+          "near_resistance": true
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "JINDALSTEL.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "JINDALSTEL.NS",
+      "close": 1063.5999755859375,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 5.900009767002475,
+          "near_support": false,
+          "resistance_level": 1075.1905517578125,
+          "days": 200,
+          "support_level": 1000.8474731445312,
+          "resistance_distance_pct": 1.089749571072503,
+          "near_resistance": true
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "ECLERX.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "ECLERX.NS",
+      "close": 4323.89990234375,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 9.156083889202762,
+          "near_support": false,
+          "resistance_level": 4832.2001953125,
+          "days": 200,
+          "support_level": 3928,
+          "resistance_distance_pct": 11.75559805843859,
+          "near_resistance": false
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "MANAPPURAM.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "MANAPPURAM.NS",
+      "close": 294.75,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 8.733431983540077,
+          "near_support": false,
+          "resistance_level": null,
+          "days": 200,
+          "support_level": 269.0082092285156,
+          "resistance_distance_pct": null,
+          "near_resistance": false
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "JBCHEPHARM.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "JBCHEPHARM.NS",
+      "close": 1846,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 9.655424471407773,
+          "near_support": false,
+          "resistance_level": 1870.9799194335938,
+          "days": 200,
+          "support_level": 1667.7608642578125,
+          "resistance_distance_pct": 1.353191735297603,
+          "near_resistance": true
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "GMDCLTD.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "GMDCLTD.NS",
+      "close": 518.7999877929688,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 5.763298882037793,
+          "near_support": false,
+          "resistance_level": 613.0999755859375,
+          "days": 200,
+          "support_level": 488.8999938964844,
+          "resistance_distance_pct": 18.17655937004376,
+          "near_resistance": false
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "GESHIP.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "GESHIP.NS",
+      "close": 1108.800048828125,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 5.496950994628598,
+          "near_support": false,
+          "resistance_level": 1133.199951171875,
+          "days": 200,
+          "support_level": 1047.849853515625,
+          "resistance_distance_pct": 2.20056829628912,
+          "near_resistance": true
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "GPIL.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "GPIL.NS",
+      "close": 241.85000610351562,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 3.8252051340192947,
+          "near_support": true,
+          "resistance_level": 283.739990234375,
+          "days": 200,
+          "support_level": 232.59874725341797,
+          "resistance_distance_pct": 17.32064629881787,
+          "near_resistance": false
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "TORNTPHARM.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "TORNTPHARM.NS",
+      "close": 3932.199951171875,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 2.5532756113744624,
+          "near_support": true,
+          "resistance_level": null,
+          "days": 200,
+          "support_level": 3831.800048828125,
+          "resistance_distance_pct": null,
+          "near_resistance": false
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "BEL.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "BEL.NS",
+      "close": 410.70001220703125,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 5.174092858143869,
+          "near_support": false,
+          "resistance_level": 426.70521545410156,
+          "days": 200,
+          "support_level": 389.45001220703125,
+          "resistance_distance_pct": 3.8970544853556497,
+          "near_resistance": true
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "^CNXPSUBANK_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "^CNXPSUBANK",
+      "close": 8781.0498046875,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 6.072736311270441,
+          "near_support": false,
+          "resistance_level": null,
+          "days": 200,
+          "support_level": 8247.7998046875,
+          "resistance_distance_pct": null,
+          "near_resistance": false
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  },
+  {
+    "_index": "nifty_data_weekly",
+    "_id": "INDIANB.NS_2026-01-19",
+    "_score": null,
+    "_source": {
+      "ticker": "INDIANB.NS",
+      "close": 876.4500122070312,
+      "crossed_resistance": [
+        {
+          "support_distance_pct": 0.2852415956620993,
+          "near_support": true,
+          "resistance_level": null,
+          "days": 200,
+          "support_level": 873.9500122070312,
+          "resistance_distance_pct": null,
+          "near_resistance": false
+        }
+      ]
+    },
+    "sort": [
+      1768780800000
+    ]
+  }
+]
