@@ -19,7 +19,7 @@ query1 = {
             "must": [
                 {"range": {"crossed_resistance.support_distance_pct": {"lte": 10}}},
                 {"term": {"vcp_trend_template": True}},
-                {"term": {"date": "2026-01-19"}}
+                {"term": {"date": "2026-02-02"}}
             ]
         }
     }
