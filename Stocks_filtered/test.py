@@ -10,31 +10,14 @@ ES_HOST = "http://localhost:9200"
 TECH_INDEX = "nifty_data_weekly"
 FUND_INDEX = "nifty_fundamental"
 SCAN_DATE = "2026-02-09"
+
 OUTPUT_FILE = "support_resistance_scan.xlsx"
 
 es = Elasticsearch(ES_HOST)
 
 # ==========================================================
-# UTILITY FUNCTIONS
+# STATIC DATA — INDICES
 # ==========================================================
-
-df_indices = pd.DataFrame({
-    "Index Name": [
-        "USDINR", "XAUINRG", "XAGINRK", "NASDAQ 100",
-        "NIFTY 50", "NIFTY 500", "NIFTY MIDCAP 150",
-        "NIFTY SMALLCAP 250", "NIFTY BANK",
-        "NIFTY PRIVATE BANK", "NIFTY PSU BANK",
-        "NIFTY FINANCIAL SERVICES", "NIFTY FMCG",
-        "NIFTY IT", "NIFTY AUTO", "NIFTY METAL",
-        "NIFTY PHARMA", "NIFTY HEALTHCARE",
-        "NIFTY REALTY", "NIFTY MEDIA",
-        "NIFTY CONSUMER DURABLES", "NIFTY OIL & GAS",
-        "NIFTY CHEMICAL", "NIFTY DEFENCE",
-        "NIFTY DIGITAL INDIA", "NIFTY EV",
-        "NIfty Energy"
-    ],
-    "STATUS": ["" for _ in range(27)]
-})
 
 df_indices = pd.DataFrame({
     "Index Name": [
@@ -79,6 +62,10 @@ df_mf = pd.DataFrame({
     ]
 })
 
+# ==========================================================
+# UTILITY FUNCTIONS
+# ==========================================================
+
 def calculate_growth(current, previous):
     if previous in [0, None]:
         return np.nan
@@ -94,48 +81,13 @@ def calculate_slope(values):
 
 
 # ==========================================================
-# QUALITY SCORING
-# ==========================================================
-
-def score_roce(roce):
-    if roce < 0:
-        return -4
-    elif 0 <= roce < 5:
-        return -3
-    elif 5 <= roce < 8:
-        return -1
-    elif 8 <= roce < 12:
-        return 1
-    elif 12 <= roce < 18:
-        return 2
-    elif 18 <= roce < 25:
-        return 3
-    else:
-        return 4
-
-
-def score_roe(roe):
-    if roe < 0:
-        return -3
-    elif 0 <= roe < 8:
-        return -1
-    elif 8 <= roe < 15:
-        return 1
-    elif 15 <= roe < 20:
-        return 2
-    else:
-        return 3
-
-
-# ==========================================================
-# FINAL NET SCORE
+# NET SCORE FUNCTION
 # ==========================================================
 
 def calculate_net_score(row):
 
     score = 0
 
-    # Earnings Momentum
     score += 1 if row["Sales_QoQ_%"] > 0 else -1
     score += 1 if row["Profit_QoQ_%"] > 0 else -1
     score += 1 if row["EPS_QoQ_%"] > 0 else -1
@@ -144,12 +96,8 @@ def calculate_net_score(row):
     score += 2 if row["Profit_YoY_%"] > 0 else -2
     score += 2 if row["EPS_YoY_%"] > 0 else -2
 
-    score += 2 if row["Sales_Slope_5Q"] > 0 else -2
-    score += 2 if row["Profit_Slope_5Q"] > 0 else -2
-
-    # Quality
-    score += score_roce(row["ROCE"])
-    score += score_roe(row["ROE"])
+    score += 3 if row["Sales_Slope_5Q"] > 0 else -3
+    score += 3 if row["Profit_Slope_5Q"] > 0 else -3
 
     return score
 
@@ -246,8 +194,6 @@ def get_fundamental_data(ticker):
     empty_result = {
         "Sector": np.nan,
         "Industry": np.nan,
-        "ROCE": 0,
-        "ROE": 0,
         "Sales_QoQ_%": 0,
         "Profit_QoQ_%": 0,
         "EPS_QoQ_%": 0,
@@ -265,16 +211,12 @@ def get_fundamental_data(ticker):
         sector = src.get("sector", {}).get("sector")
         industry = src.get("sector", {}).get("industry")
 
-        ratios = src.get("ratios", {})
-        roce = ratios.get("roce", 0)
-        roe = ratios.get("roe", 0)
-
         quarterly = src.get("quarterly", [])
 
         sales, profits, eps = [], [], []
 
         for q in quarterly:
-            if q["metric"] == "Sales" or q["metric"] == "Revenue":
+            if q["metric"] == "Sales":
                 sales.append((q["period_date"], q["value"]))
             elif q["metric"] == "Net Profit":
                 profits.append((q["period_date"], q["value"]))
@@ -288,8 +230,6 @@ def get_fundamental_data(ticker):
         if len(sales) < 5 or len(profits) < 5 or len(eps) < 5:
             empty_result["Sector"] = sector
             empty_result["Industry"] = industry
-            empty_result["ROCE"] = roce
-            empty_result["ROE"] = roe
             return empty_result
 
         sales_vals = [v for _, v in sales][-5:]
@@ -299,8 +239,6 @@ def get_fundamental_data(ticker):
         return {
             "Sector": sector,
             "Industry": industry,
-            "ROCE": roce,
-            "ROE": roe,
             "Sales_QoQ_%": calculate_growth(sales_vals[-1], sales_vals[-2]),
             "Profit_QoQ_%": calculate_growth(profit_vals[-1], profit_vals[-2]),
             "EPS_QoQ_%": calculate_growth(eps_vals[-1], eps_vals[-2]),
@@ -349,8 +287,9 @@ if __name__ == "__main__":
     df_matched = enrich_dataframe(df_matched)
     df_missed = enrich_dataframe(df_missed)
 
-    print("💾 Saving Excel...")
-    with pd.ExcelWriter(OUTPUT_FILE) as writer:
+    print("💾 Saving final Excel...")
+
+    with pd.ExcelWriter(OUTPUT_FILE, engine="openpyxl") as writer:
         df_indices.to_excel(writer, sheet_name="indices", index=False)
         df_mf.to_excel(writer, sheet_name="MF", index=False)
         df_matched.to_excel(writer, sheet_name="matched", index=False)
