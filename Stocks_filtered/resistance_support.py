@@ -100,3 +100,7 @@ with pd.ExcelWriter("support_resistance_scan.xlsx") as writer:
 print("✅ support_resistance_scan.xlsx created")
 print(f"Matched tickers: {df_matched['Ticker'].nunique()}")
 print(f"Missed tickers: {df_missed['Ticker'].nunique()}")
+
+
+
+
