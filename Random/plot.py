@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # ================= CONFIG =================
-FILE_PATH = "icici_funds_nav.xlsx"   # Change if needed
+FILE_PATH = "icici_funds_nav.xlsx"  # Change if needed
 # =========================================
 
 # Load Excel sheets

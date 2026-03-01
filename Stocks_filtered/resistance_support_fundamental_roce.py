@@ -349,11 +349,80 @@ if __name__ == "__main__":
     df_matched = enrich_dataframe(df_matched)
     df_missed = enrich_dataframe(df_missed)
 
+    # Sector summary for matched
+    sector_matched = (
+        df_matched
+        .groupby("Sector")["Ticker"]
+        .count()
+        .reset_index()
+        .rename(columns={"Ticker": "Stock_Count"})
+        .sort_values(by="Stock_Count", ascending=False)
+    )
+
+    # Sector summary for missed
+    sector_missed = (
+        df_missed
+        .groupby("Sector")["Ticker"]
+        .count()
+        .reset_index()
+        .rename(columns={"Ticker": "Stock_Count"})
+        .sort_values(by="Stock_Count", ascending=False)
+    )
+
     print("💾 Saving Excel...")
-    with pd.ExcelWriter(OUTPUT_FILE) as writer:
+
+    from openpyxl.chart import PieChart, Reference
+
+    with pd.ExcelWriter(OUTPUT_FILE, engine="openpyxl") as writer:
+
+        # Write sheets
+        sector_matched.to_excel(writer, sheet_name="sector_matched", index=False)
+        sector_missed.to_excel(writer, sheet_name="sector_missed", index=False)
         df_indices.to_excel(writer, sheet_name="indices", index=False)
         df_mf.to_excel(writer, sheet_name="MF", index=False)
         df_matched.to_excel(writer, sheet_name="matched", index=False)
         df_missed.to_excel(writer, sheet_name="missed", index=False)
 
+        workbook = writer.book
+
+        from openpyxl.chart import BarChart, Reference
+
+        # -------- BAR CHART FOR MATCHED --------
+        ws_matched = workbook["sector_matched"]
+
+        bar1 = BarChart()
+        bar1.title = "Sector Distribution (Matched)"
+        bar1.y_axis.title = "Stock Count"
+        bar1.x_axis.title = "Sector"
+        bar1.height = 10
+        bar1.width = 20
+
+        data1 = Reference(ws_matched, min_col=2, min_row=1, max_row=len(sector_matched) + 1)
+        categories1 = Reference(ws_matched, min_col=1, min_row=2, max_row=len(sector_matched) + 1)
+
+        bar1.add_data(data1, titles_from_data=True)
+        bar1.set_categories(categories1)
+
+        ws_matched.add_chart(bar1, "E2")
+
+        # -------- BAR CHART FOR MISSED --------
+        ws_missed = workbook["sector_missed"]
+
+        bar2 = BarChart()
+        bar2.title = "Sector Distribution (Missed)"
+        bar2.y_axis.title = "Stock Count"
+        bar2.x_axis.title = "Sector"
+        bar2.height = 10
+        bar2.width = 20
+
+        data2 = Reference(ws_missed, min_col=2, min_row=1, max_row=len(sector_missed) + 1)
+        categories2 = Reference(ws_missed, min_col=1, min_row=2, max_row=len(sector_missed) + 1)
+
+        bar2.add_data(data2, titles_from_data=True)
+        bar2.set_categories(categories2)
+
+        ws_missed.add_chart(bar2, "E2")
+
     print("✅ Done!")
+
+
